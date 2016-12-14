@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: griffis.edumedia.ca style-src 'self 'unsafe-inline'; media-src *">-->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: content: http://*.edumedia.ca https://*.edumedia.ca 'unsafe-eval' 'unsafe-inline';">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Basketball Scores</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-default ">
+        <ul class="container-fluid">
+            <li><a id="refreshButton" class="btn btn-warning active" role="button">Refresh</a></li>
+            <li><a id="scoreButton" class="btn btn-primary active" role="button">Scores</a> </li>
+            <li><a id="standButton" class="btn btn-info active" role="button">Standings</a> </li>
+        </ul>
+    </nav>
+    <div id="scoreDiv"> </div>
+    <div id="standingDiv"> </div>
+    <script src="js/jquery.min.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script src="js/index.js "></script>
+</body>
+
+</html>
